@@ -1,0 +1,127 @@
+.Home-Grid {
+    display: grid;
+    grid-template-columns: repeat(5, 300px);
+    grid-template-rows: repeat(6, 300px);
+}
+
+div {
+    max-width: 1600px;
+}
+
+#content {
+    margin:0 auto;
+}
+
+body {
+    background-color: white;
+    font-family: 'Electrolize', 'Nova Square', 'Exo';
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: grid;
+    background-color: white;
+    grid-template-columns: 150px auto;
+}
+
+#logo_link {
+    justify-self: center;
+    align-self: center;
+}
+
+.logo {
+    width: 80px;
+    border: 1px #210c6e solid;
+
+}
+
+nav {
+    display: flex;
+    border-left: 5px #3d3d3d solid;
+    justify-content: space-around;
+}
+
+nav a {
+    color: #3d3d3d;
+    text-decoration: none;
+    border-left: 5px #3d3d3d solid;
+    border-right: 5px #3d3d3d solid;
+    text-align: center;
+    padding: 35px;
+}
+
+nav a:hover {
+    background-color: #210c6e;
+    color: white;
+}
+
+#Content {
+    width: 1500px;
+    background-color: #FFB60a;
+}
+
+#Cyberlize-Background {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #3d3d3d;
+    color: #210c6e;
+    margin-top: 55px;
+    grid-column: 1/6;
+    grid-row: 1/4;
+}
+
+.Classroom-img {
+    width: 170%;
+    height: 50%;
+    border: 10px #210c6e solid;
+    align-self: center;
+    margin: 25px;
+    grid-row: 1/2;
+}
+
+.HomePageContent {
+    width: 75%;
+    height: 70%;
+    background-color: white;
+    border: 10px #210c6e solid;
+    text-align: center;
+    margin: 25px;
+    grid-column: 3;
+    grid-row: 1/2;
+}
+
+
+#SiteConstruction-Background {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-column: 1/6;
+    grid-row: 4/7;
+}
+
+.SiteConstruction-img {
+    width: 130%;
+    max-height: 100%;
+    border: 10px #210c6e solid;
+    margin: 50px;
+    margin-left: 87px;
+    grid-column: 1/3;
+    grid-row: 1/3;
+}
+
+footer {
+    display: flex;
+    background-color: white;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer a {
+    color: #3d3d3d;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
