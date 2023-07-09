@@ -176,6 +176,76 @@ nav a:hover {
     background-color: #FFB60a;
 }
 
+.Classes-Grid {
+    display: grid;
+    grid-template-rows: repeat(3, 500px);
+}
+
+#Art-Background {
+    display: grid;
+    grid-template-columns: repeat(5, 300px);
+}
+
+.Art-img {
+    width: 700px;
+    height: 400px;
+    align-self: center;
+    border: 15px solid;
+    margin-left: 60px;
+}
+
+.ArtContent {
+    align-self: center;
+    text-align: center;
+    grid-column: 4/6;
+}
+
+#Technology-Background {
+    display: grid;
+    grid-template-columns: repeat(5, 300px);
+    grid-template-rows: repeat(5, 100px);
+    background-color: #3d3d3d;
+    color: white;
+}
+
+.Technology-img {
+    width: 700px;
+    height: 400px;
+    margin-left: 140px;
+    margin-top: 50px;
+    border: 15px white solid;
+    grid-column: 3/4;
+    grid-row: 1/4;
+}
+
+.TechnologyContent {
+    align-self: center;
+    text-align: center;
+    grid-column: 1/3;
+    grid-row: 2/4;
+}
+
+#WebDesign-Background {
+    display: grid;
+    grid-template-columns: repeat(5, 300px);
+    background-color: #210c6e;
+    color: #FFB60a;
+}
+
+.WebDesign-img {
+    width: 700px;
+    height: 400px;
+    align-self: center;
+    border: 15px #FFB60a solid;
+    margin-left: 60px;
+}
+
+.WebDesignContent {
+    grid-column: 4/6;
+    align-self: center;
+    text-align: center;
+}
+
 footer {
     display: flex;
     background-color: white;
