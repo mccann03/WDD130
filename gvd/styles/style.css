@@ -85,7 +85,7 @@ nav a:hover {
     background-color: white;
     border: 10px #210c6e solid;
     text-align: center;
-    line-height: 2.1;
+    line-height: 1.9;
     margin: 25px;
     grid-column: 3;
     grid-row: 1/2;
