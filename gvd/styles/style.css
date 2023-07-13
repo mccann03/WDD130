@@ -127,13 +127,15 @@ nav a:hover {
 #Basic-Background h1 {
     color: white;
     text-align: center;
+    padding-top: 5px;
     grid-column: 1;
 }
 
 .Basic-img {
-    width: 900px;
-    height: 400px;
+    width: 850px;
+    height: 450px;
     align-self: end;
+    border: 15px white solid;
     grid-column: 2/3;
     grid-row: 2/3;
 }
@@ -141,7 +143,9 @@ nav a:hover {
 .BasicInfoContent {
     color:#FFB60a;
     text-align: center;
-    line-height: 1.8;
+    line-height: 1.5;
+    padding-right: 30px;
+    padding-top: 15px;
     grid-column: 5/6;
     grid-row: 1/2;
 }
@@ -161,6 +165,7 @@ nav a:hover {
 .Aspect-img {
     width: 600px;
     height: 900px;
+    border: 15px #210c6e solid;
     grid-column: 4/5;
     grid-row: 1;
 }
@@ -300,10 +305,20 @@ button:hover {
   opacity:1;
 }
 
+.cancelbtn:hover {
+    opacity:1;
+}
+
 /* Extra styles for the cancel button */
 .cancelbtn {
-  padding: 14px 20px;
   background-color: #3d3d3d;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  font-size: 13px;
+  text-decoration: none;
+  text-align: center;
+  opacity: 0.9;
 }
 
 /* Float cancel and signup buttons and add an equal width */
